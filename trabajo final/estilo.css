@@ -1,0 +1,408 @@
+
+/*Porfe al final use 1 hoja de estilo para las 3 hojas index y agregue otra hoja js*/
+body{
+    background-color:#181D31 ;
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+.logotipo{
+    width: 250px;
+    height: 80px;
+    margin-right:-30px;
+    
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100px;
+    margin-inline: 950px;
+    list-style: none;
+    margin-top: -60px;   
+    
+}
+
+
+a{
+    box-shadow: 2px 3px #678983;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #E6DDC4;
+    color:#181D31 ;
+    font-weight: 300;
+    margin: 20px;
+    text-decoration: none;  
+}
+
+header{
+    background-image: url(./imagenes/imagen\ 1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    padding: 5px;
+    margin-top: 30px;      
+}
+
+
+
+h1{
+    color: #EEEEEE;
+    text-align: center;
+    font-size:60px;
+    text-shadow: 2px 2px grey, 6px 6px black;
+    margin: 200px;
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    color:#678983 ;
+    margin: 0px;         
+} 
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+div{
+    
+    border: 6px solid #678983;
+    width:350px;
+    height:400px;
+    margin-top: 200px;
+    background-color: #E6DDC4;
+    
+}
+
+img{
+    width:350px;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-decoration: none;
+}
+
+.parrafo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-decoration: none;
+
+}
+
+
+
+.boton{
+   
+    padding: 15px;
+    margin: 120px;
+    border-radius: 15px;
+    color: white;
+    background-color: #181D31;
+    box-shadow: 2px 3px #678983;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color:#678983;
+    margin-top: 350px;
+    padding: 40px;
+    height: 150px;
+    align-items: center;
+    
+}
+
+.titulo2{
+    font-size:15px;
+       
+}
+
+.titulo3{
+    font-size:16px;
+    font-weight:100;
+}
+
+.logo{
+    width: 100px;
+    height: 80px;
+}
+
+.contenedor1{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 300px;
+   height: 150px;
+   background-color:#678983;
+   margin-bottom: 150px;
+}
+
+.contenedor2{
+    display:flex;
+    justify-content: end;
+    width: 500px;
+    height: 80px;
+    background-color:#678983;
+    margin-bottom: 220px;   
+}
+
+/* selectores de la hoja 2 */
+
+
+.parte1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.contenido{
+   width: 100%;
+   background-color: #181D31;
+   margin: 0%;
+   border: none;
+    
+}
+
+.titulo4{
+    margin-left: -400px;
+    text-shadow: 2px 2px black;
+    font-size:35px; 
+    margin-top: 200px;
+       
+}
+
+.titulo5{
+    margin-left: 800px;
+    text-shadow: 2px 2px black;
+    font-size:35px; 
+    margin-top:-150px;
+}
+
+.titulo6{
+    margin-right: 500px;
+    text-shadow: 2px 2px black;
+    font-size:35px; 
+       
+}
+
+
+
+.parrafo2{
+    
+    margin-top:-70px;
+    margin-left: 900px;
+    color: #E6DDC4;
+    width: 400px;
+           
+}
+
+.parrafo3{
+    margin-left: 150px;
+    width:550px ;
+    color: #E6DDC4;
+   
+}
+
+.parrafo4{
+   
+    margin-left:400px;
+    color: #E6DDC4;
+    width: 850px;
+
+}
+
+.reproduccion{
+   margin-left: 200px;
+   margin-top:10px;
+   border: 5px solid black;
+   width: 940px;
+   height: 700px;
+   background-color: black;  
+}
+
+video{
+   width: 940px;  
+}
+
+.botn{
+    box-shadow: 2px 3px #678983;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    width:80px;
+    height:40px;
+    
+}
+
+.botnn{
+    box-shadow: 2px 3px #678983;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    width:80px;
+    height:40px;
+    
+}
+
+.control{
+ width:15%;
+ 
+}
+.control2{
+    width:25% ;
+    
+}
+
+.parrafo5{
+    margin-top:-50px;
+    margin-left: 800px;
+    color:#EEEEEE
+}
+
+.controles{
+     
+     margin: 205px;
+     margin-block: -95px;
+    background-color: #1d1d1d;
+    width: 940px;
+    height: 90px;
+    border-radius: 10px ;
+    border-style: none;
+
+}
+
+/*  selectores hoja 3*/
+
+.titulo7{
+    margin-top: 80px;
+}
+
+.marco{
+    margin-left: 250px;
+    background-color: grey;
+    width:800px; 
+    height:400px;
+    border: solid 1px black;
+    
+}
+
+.tarjetaJ:hover{
+    background-color: #1d1d1d;
+}
+
+.tarjeta1{
+    background-color: transparent;
+    width:800px; 
+    height:400px;
+    border: solid 2px black;
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.tarjeta2{
+    background-color: transparent;
+    width:800px; 
+    height:400px;
+    border: solid 2px black;
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.tarjeta3{
+    background-color: transparent;
+    width:800px; 
+    height:400px;
+    border: solid 2px black;
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.info{
+    color:white;   
+}
+
+.info2{
+    color:white;   
+}
+
+.info3{
+    color:white;   
+}
+
+.rompe{
+    width:300px;
+    height: 400px;
+
+}
+
+.rompe2{
+    width:300px;
+    height: 400px;
+
+}
+
+.rompe3{
+    width:300px;
+    height: 400px;
+
+}
+
+.tarjetaG{
+    width:800px; 
+    height:400px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: 250px;
+    background-color: transparent;
+    margin-top: -120px;
+    cursor: pointer;
+}
+
+.lienzo{
+    margin-bottom: 50px;
+    margin-left: 250px;
+}
+
+.reinicio{
+    box-shadow: 2px 3px #678983;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #E6DDC4;
+    color: #181D31;
+    font-weight: 300;
+    padding: 10px 100px;
+    margin-left: 500px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
